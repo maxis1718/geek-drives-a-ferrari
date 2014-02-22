@@ -1,6 +1,16 @@
 ##Compass
 <br>
 
+###Get compass
+
+1. [Install](http://compass-style.org/install/)
+
+2. [About Sass](http://sass-lang.com/)
+
+
+
+###projects
+
 1. 建立 compass project
 	
 	<pre>compass create <b>glance</b> </pre>
@@ -18,9 +28,9 @@
 
 ###Hello word
 
-* 監控任何 sass, scss 的改變
+* 監控任何 sass, scss 的改變 (建議用 <code>tmux</code> 切一個 window or panel)
 
-	<pre> compass watch glance </pre>
+	<pre> compass watch <b>glance</b> </pre>
 
 * sample 
 
