@@ -13,7 +13,7 @@
 
 3. compass 會 compile 成 <code>.css</code>，放在 glance/stylesheets
 
-	<pre>glance/stylesheets/test.sass
+	<pre>glance/stylesheets/test.css
 	
 
 ###Hello word
