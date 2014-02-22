@@ -55,9 +55,22 @@
 * in HTML
 
 	<code>/index.html</code>
+	
+	1. in \<head\>
 
-		<link type="text/css" rel="stylesheet" href="glance/stylesheets/test.css" />
+			<link type="text/css" rel="stylesheet" href="glance/stylesheets/test.css" />
+	
+	2. in \<body\>
+	
+			<div>
+				default div
+			</div>
 		
+			<hr>
+		
+			<div id="XD">
+				my id is XD
+			</div>
 
 * Demo
 
