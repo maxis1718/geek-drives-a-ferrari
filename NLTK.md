@@ -21,7 +21,7 @@ NLTK
 	
 	<pre><b>t</b> = nltk.Tree(tree_str)</pre>
 
-	`t` is a <code><nltk.tree.Tree></code> object
+	`t` is a <code>\<nltk.tree.Tree\></code> object
 	
 		t.append                        t.draw                          t.insert                        t.pos                           t.sort
 		t.chomsky_normal_form           t.extend                        t.leaf_treeposition             t.pprint                        t.subtrees
