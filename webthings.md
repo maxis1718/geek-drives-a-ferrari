@@ -26,6 +26,7 @@ WebThings
 	* in `index.html` 
 	
 		```html
+		<!DOCTYPE html>
 		<html>
 			<head>
 				<link type="text/css" rel="stylesheet" href="css/style.css">
