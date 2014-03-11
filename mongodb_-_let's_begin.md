@@ -83,7 +83,8 @@
 
 	<code>db.deps.findOne()</code>
 	
-	<pre>{
+	```javascript
+	{
 		"_id" : ObjectId("52fd987bd4388c3ded3e9a3a"),
 		"emotion" : "annoyed",
 		"xPos" : "VBD",
@@ -96,14 +97,17 @@
 		"x" : "took",
 		"yIdx" : 0,
 		"udocID" : 3000
-	}</pre>
+	}
+	```
 
 5. Find dependency relations labeled as <b>happy</b>
 
 	<code>db.deps.find( {'emotion': 'happy'} )</code>
 	
-	<pre>{ "_id" : ObjectId("52fd9901d4388c3ded835fcd"), "emotion" : "happy", "xPos" : "NN", "docID" : 0, "xIdx" : 0, "yPos" : "NNS", "rel" : "dep", "sentID" : 0, "y" : "guyses", "x" : "hey", "yIdx" : 1, "udocID" : 29000 } <br>
-{ "_id" : ObjectId("52fd9901d4388c3ded835fce"), "emotion" : "happy", "xPos" : "NN", "docID" : 0, "xIdx" : 0, "yPos" : "NN", "rel" : "dep", "sentID" : 0, "y" : "nbsp", "x" : "hey", "yIdx" : 3, "udocID" : 29000 } <br> ... </pre>
+	```javascript
+	{ "_id" : ObjectId("52fd9901d4388c3ded835fcd"), "emotion" : "happy", "xPos" : "NN", "docID" : 0, "xIdx" : 0, "yPos" : "NNS", "rel" : "dep", "sentID" : 0, "y" : "guyses", "x" : "hey", "yIdx" : 1, "udocID" : 29000 } <br>
+{ "_id" : ObjectId("52fd9901d4388c3ded835fce"), "emotion" : "happy", "xPos" : "NN", "docID" : 0, "xIdx" : 0, "yPos" : "NN", "rel" : "dep", "sentID" : 0, "y" : "nbsp", "x" : "hey", "yIdx" : 3, "udocID" : 29000 } <br> ... 
+	```
 	
 6. Find dependency relations in the docID <b>0</b>, categoried as <b>accomplished</b>
 
