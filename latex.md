@@ -52,5 +52,9 @@ LaTeXTools: you need to migrate your preferences. See the README file for instru
 		
 	2. after compilation, you will see a file named `acl2014.pdf`
 
+###3. See also
 
+* [Git + LaTex workflow](http://stackoverflow.com/questions/6188780/git-latex-workflow)
+* [Writing a PhD thesis](http://copiancestral.wordpress.com/2012/04/27/writing-the-phd-thesis-the-tools-part-i/#more-372)
+* [Collaborating with LaTeX and git](https://www.sharelatex.com/blog/2012/10/16/collaborating-with-latex-and-git.html)
 
