@@ -37,21 +37,23 @@
 
 	<code>glance/sass/test.sass</code>
 
-		@import "compass/css3" 					// import default mixin from compass
-		$defaultFontSize:14 					// 設定變數
-		@mixin sexy-border ($size, $color)		// 巨集
-				border: $size solid $color
-		body									// 支援 tag 巢狀
-			div
-				background: blue
-				color: white
-				padding: 10px
-		
-		#XD
-			background: red
-			font-size: $defaultFontSize			// 變數這樣用
-			+box-shadow(black 2px 2px 2px 2px)  // compass 內建的 browsers compatible mixin
-			+sexy-border(5, yellow)				// 我們自己的 minin
+	```scss
+	@import "compass/css3" 					// import default mixin from compass
+	$defaultFontSize:14 					// 設定變數
+	@mixin sexy-border ($size, $color)		// 巨集
+			border: $size solid $color
+	body									// 支援 tag 巢狀
+		div
+			background: blue
+			color: white
+			padding: 10px
+	
+	#XD
+		background: red
+		font-size: $defaultFontSize			// 變數這樣用
+		+box-shadow(black 2px 2px 2px 2px)  // compass 內建的 browsers compatible mixin
+		+sexy-border(5, yellow)				// 我們自己的 minin
+	```
 
 * in HTML
 
@@ -59,19 +61,23 @@
 	
 	1. in \<head\>
 
-			<link type="text/css" rel="stylesheet" href="glance/stylesheets/test.css" />
+		```html
+		<link type="text/css" rel="stylesheet" href="glance/stylesheets/test.css" />
+		```
 	
 	2. in \<body\>
 	
-			<div>
-				default div
-			</div>
-		
-			<hr>
-		
-			<div id="XD">
-				my id is XD
-			</div>
+		```html
+		<div>
+			default div
+		</div>
+	
+		<hr>
+	
+		<div id="XD">
+			my id is XD
+		</div>
+		```
 
 * Demo
 
