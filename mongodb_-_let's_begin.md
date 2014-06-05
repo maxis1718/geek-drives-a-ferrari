@@ -119,5 +119,5 @@
 ---
 <center>
 
-[Document](http://docs.mongodb.org/manual/) &nbsp;&nbsp;|&nbsp;&nbsp;  [Try it out](http://try.mongodb.org/)  &nbsp;&nbsp;|&nbsp;&nbsp;  [Download](http://www.mongodb.org/downloads) &nbsp;&nbsp;|&nbsp;&nbsp; © by [maxis](nlp.cs.nthu.edu.tw/students/~maxis.kao/)
+[Document](http://docs.mongodb.org/manual/) &nbsp;&nbsp;|&nbsp;&nbsp;  [Try it out](http://try.mongodb.org/)  &nbsp;&nbsp;|&nbsp;&nbsp;  [Download](http://www.mongodb.org/downloads) &nbsp;&nbsp;|&nbsp;&nbsp; © by [maxis](http://maxis1718.github.io)
 
