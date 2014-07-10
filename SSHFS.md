@@ -18,9 +18,8 @@ sshfs `<hostname>`:`<remote-path>` `<local-mount-point>`
 e.g.,
 
 ```
-	mkdir doraemon-corpus
-	sshfs -P 2222 <your-username>@doraemon.iis.sinica.edu.tw:/corpus doraemon-corpus
-	
+mkdir doraemon-corpus
+sshfs -P 2222 <your-username>@doraemon.iis.sinica.edu.tw:/corpus doraemon-corpus
 ```
 
 Now we can use GUI or IDE to write codes and execute the program just like local files ☺︎
