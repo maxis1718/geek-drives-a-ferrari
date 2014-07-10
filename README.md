@@ -1,7 +1,5 @@
-geek-drives-a-ferrari
+Geek notes
 =====================
-
-notes and some posts from maxiskao.tumblr.com
 
 * ###Quick Start series
 
@@ -11,10 +9,12 @@ notes and some posts from maxiskao.tumblr.com
 	
 	* [Mongo - A quick start with mongo db](mongodb_-_let's_begin.md)
 	
-	---
 	
 * ###Notes
 
 	* ####Python
 	
 		* [Draw a penn tree using NLTK](NLTK.md)
+	* ####Git
+	
+		* [Git-rebase](rebase.md)
