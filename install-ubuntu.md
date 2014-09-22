@@ -3,28 +3,30 @@ Installation
 
 - necessary ubuntu apps
 
-```
+	```
 sudo apt-get update
 sudo apt-get install -y vim openssh-server htop tmux unrar git ipython default-jre default-jdk git-core zsh nginx python-pip python-setuptools python-dev
-```
+	```
 
 SSH
 ===
 
-change default ssh port
+- change default ssh port
 
-```
+	```
 sudo vim /etc/ssh/sshd_config
 sudo service ssh restart
 ssh <username>@penguin.iis.sinica.edu.tw -p <port>
-```
+	```
 
 motd (optional)
 ==============
 
-In Ubuntu Server 14.04, the motd are spread in several files under `/etc/update-motd.d`
+- quickstart: download [this repo](https://github.com/maxis1718/update-motd.d)
 
-```
+- In Ubuntu Server 14.04, the motd are spread in several files under `/etc/update-motd.d`
+
+	```
 drwxr-xr-x   2 root root 4.0K Sep 18 17:03 .
 drwxr-xr-x 106 root root 4.0K Sep 18 16:57 ..
 -rwxr-xr-x   1 root root 1.2K Feb 19  2014 00-header
@@ -34,7 +36,7 @@ drwxr-xr-x 106 root root 4.0K Sep 18 16:57 ..
 -rwxr-xr-x   1 root root  299 Apr 11 15:06 91-release-upgrade
 -rwxr-xr-x   1 root root  142 Aug 22  2011 98-fsck-at-reboot
 -rwxr-xr-x   1 root root  144 Aug 22  2011 98-reboot-required
-```
+	```
 
 - The system will assembly each part by the order of fileanmes.
 
@@ -122,9 +124,6 @@ sudo adduser <username>
 
 ---
 
-
-Other
-=====
 
 HttpServer
 ==========
