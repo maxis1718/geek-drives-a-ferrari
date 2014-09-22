@@ -5,7 +5,7 @@ Installation
 
 ```
 sudo apt-get update
-sudo apt-get install -y htop tmux unrar git ipython default-jre default-jdk git-core zsh nginx python-pip python-setuptools python-dev
+sudo apt-get install -y vim openssh-server htop tmux unrar git ipython default-jre default-jdk git-core zsh nginx python-pip python-setuptools python-dev
 ```
 
 SSH
