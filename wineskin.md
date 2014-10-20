@@ -78,7 +78,25 @@ Wineskin
 	
 ### 5. Location
 
-`/Users/<username>/Applications/Wineskin`
+- `/Users/<username>/Applications/Wineskin`
 
-![image](img/wineskin/13-wineskin.png)
+	![image](img/wineskin/13-wineskin.png)
+	
+- 修改 wrapper
+
+	![image](img/wineskin/14-wineskin.png)
+	
+
+Winetricks (套件管理+微調)
+=========================
+
+1. Winetricks
+
+	![image](img/wineskin/15-wineskin.png)
+
+2. 安裝 `.dll`, 設定 `windows 版本`, ...etc.
+
+	![image](img/wineskin/16-wineskin.png)
+	
+	選擇後，點 `run`，然後 `close`
 	
