@@ -76,5 +76,9 @@ Wineskin
 	
 	跑跑看有沒有問題
 	
+### 5. Location
 
+`/Users/<username>/Applications/Wineskin`
+
+![image](img/wineskin/13-wineskin.png)
 	
