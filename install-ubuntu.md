@@ -5,7 +5,7 @@ Installation
 
 	```
 sudo apt-get update
-sudo apt-get install -y vim openssh-server htop tmux unrar git ipython default-jre default-jdk git-core zsh nginx python-pip python-setuptools python-dev
+sudo apt-get install -y vim openssh-server htop tmux unrar unzip git ipython default-jre default-jdk git-core zsh nginx python-pip python-setuptools python-dev
 	```
 
 SSH
@@ -73,7 +73,20 @@ GROUPHOMES=yes
 
 - all users belong to the group __lwkulab__
 
+	1. Find the GID of `lwkulab`
+	
+		```
+cat /etc/group | grep lwkulab | cut -d : -f 3
+		```
+	2. Set the default USERS_GID
+
+		```
+USERS_GID=<the-GID-of-lwkulab>
 	```
+	
+	3. Set extra groups
+	
+		```
 USERGROUPS=no
 EXTRA_GROUPS="lwkulab"
 ADD_EXTRA_GROUPS=1
@@ -246,3 +259,38 @@ sudo pip install -U flask pymongo beautifulsoup4 gunicorn Django nltk
 	- Plotting
 		- Matplotlib
 		- ReportLab
+
+
+Mount
+=====
+
+- before mounting, install the nfs-related packages
+
+	```
+sudo apt-get update
+sudo apt-get install nfs-common
+	```
+
+
+- mount
+
+	- setup `/etc/fstab`
+
+		```
+140.109.19.88:/volume1/corpus             /corpus         nfs     defaults,acl    0       0
+		```
+		
+	- mount
+
+		```
+sudo mount -a
+		```
+
+- umount
+	
+	```
+sudo umount 140.109.19.88:/volume1/corpus
+	```
+
+
+
