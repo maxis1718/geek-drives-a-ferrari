@@ -120,6 +120,7 @@ FZR!!
 - [露天賣場](http://goods.ruten.com.tw/item/show?21407145695598)
 - 50,000
 - 台中西區三民路跟五權路交叉口
+
 ![image](http://img.ruten.com.tw/s2/a/a9/6e/21407145695598_782.jpg)
 
 ## 12. FZR
@@ -130,7 +131,30 @@ FZR!!
 - 星期三有人要來看車，若沒賣出可來電看車
 - `0919847861`
 - 郭先生
+
 ![image](http://img.ruten.com.tw/s1/b/de/87/21447764434567_117.jpg)
+
+## 13. FZR 1994 紅
+
+- [露天賣場](http://goods.ruten.com.tw/item/show?21441454210705)
+- 60,000
+- 汽缸頭改XV250套件
+- 改5檔
+- 三峽北大
+- `0953224728`
+- 吳先生
+
+![image](http://img.ruten.com.tw/s1/d/7e/91/21441454210705_338.jpg)
+
+## 14. FZR
+
+- [露天賣場](http://goods.ruten.com.tw/item/show?21443530747471)
+- 68,000
+- 正原廠
+- `0925-215-655` 
+- 曾先生
+
+![image](http://img.ruten.com.tw/s1/2/ee/4f/21443530747471_171.jpg)
 
 
 ---
